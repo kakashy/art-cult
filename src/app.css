@@ -1,0 +1,45 @@
+@font-face {
+	font-family: fut;
+	src: url('/fonts/FUTURA\ BK\ BT\ BOOK.TTF');
+}
+@font-face {
+	font-family: abba;
+	src: url('/fonts/ABB103.TTF');
+}
+@font-face {
+	font-family: new-normal;
+	src: url('/fonts/Times\ New\ Normal\ Regular.ttf');
+}
+:root {
+	font-size: 15px;
+}
+
+body {
+	background-color: #111110;
+	color: white;
+	font-family: fut;
+	margin: 0;
+	min-height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+a:hover {
+	color: #fefa20;
+}
+
+button {
+	cursor: pointer;
+	padding: 12px;
+	outline: none;
+	border: none;
+	background-color: #ffd000;
+	font-family: inherit;
+	font-size: inherit;
+	box-shadow: 1px 1px 8px #00000050;
+}
+button:hover {
+	background-color: #fefa20;
+}
